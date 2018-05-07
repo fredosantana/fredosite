@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import fredo from "./wil2.jpg";
 
 export default () => 
-	<div style={{margin: `3rem auto`, fontFamily: `sans-serif`, maxWidth: 1000}}>
+	<div style={{margin: `3rem auto`, /*fontFamily: `sans-serif`,*/ maxWidth: 1000}}>
 		<h1>Fredo's Blog</h1>
 		<div>
 			<Link to="/portfolio/">Portfolio</Link>
